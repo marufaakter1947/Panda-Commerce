@@ -55,3 +55,55 @@ margin-top: 50px;
     color: #707070;
     text-decoration: none;
 }
+
+/* ---------------Banner section starts here---------- */
+.banner-content h1{
+    font-size: 56px;
+    font-weight: bold;
+     font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 8px;
+}
+.banner-content p{
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 8px;
+}
+
+.banner-content h2{
+    font-size: 41px;
+    font-weight: 500;
+    color: #FF136F;
+    margin-bottom: 8px;
+     font-family: "Poppins", sans-serif;
+
+}
+.btn{
+    padding: 14px 20px;
+    border-radius: 6px;
+    background-image: linear-gradient(#FF589B,#FF136F);
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+color: rgb(255, 255, 255);
+border: none;
+}
+.banner-image img{
+    width: 400px;
+    height: 375px;
+}
+.banner{
+    border-radius: 15px;
+
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1212px;
+    margin: 0 auto;
+    margin-top: 63px;
+    padding: 38px 63px;
+    gap: 100px;
+
+}
