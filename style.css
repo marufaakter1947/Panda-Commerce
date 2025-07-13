@@ -79,7 +79,7 @@ margin-top: 50px;
 
 }
 .btn{
-    padding: 14px 20px;
+    padding: 14px 24px;
     border-radius: 6px;
     background-image: linear-gradient(#FF589B,#FF136F);
     display: flex;
@@ -119,6 +119,8 @@ margin-bottom: 64px;
     font-weight: 600;
     color: #1F1F1F;
     margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+
 }
 .card h3{
     font-size: 36px;
@@ -148,3 +150,87 @@ margin-bottom: 64px;
     display: flex;
     justify-content: space-between;
 }
+/* -----------------shoes section starts here-------------------- */
+.product-header a{
+    font-size: 20px;
+    font-weight: 500;
+    color:#FF9D00;
+    text-decoration: none;
+     font-family: "Poppins", sans-serif;
+    margin-bottom: 28px;
+
+    
+}
+.product-header{
+    width: 1122px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-card{
+    padding: 24px;
+    width: 360px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.product-card img{
+    width: 336px;
+    height: 202px;
+    margin-bottom: 22px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F1F1F;
+     font-family: "Poppins", sans-serif;
+margin-bottom: 16px;
+}
+.card-sub-title{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+.card-price{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+     font-family: "Poppins", sans-serif;
+margin-bottom: 16px;
+}
+.card-btn{
+ padding: 14px 24px;
+    border-radius: 6px;
+   background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+color: rgb(255, 255, 255);
+border: none;
+}
+.button-card{
+    display: flex;
+    justify-content: center;
+
+}
+.product-cards{
+    width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+}
+
+.product-bag{
+    
+    object-fit: contain;}
+    .products{
+        padding-top: 30px;
+        /* padding-bottom: 70px; */
+        background-color: #F4F4F4;
+    }
+
+    /* ------------Footer---------------- */
